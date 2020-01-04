@@ -2,6 +2,15 @@ body {
   background-color: #fafcfc;
 }
 
+.container {
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
 nav {
   height: 120px;
   display: -webkit-box;
@@ -10,6 +19,12 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: 1px solid #ebebeb;
+  border-radius: 5px;
+}
+
+nav p {
+  margin-left: 12px;
 }
 
 .menu-btn {
@@ -73,5 +88,95 @@ nav {
   background-color: #666666;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+}
+
+.header-description {
+  margin-top: 113px;
+}
+
+.header-description .banner {
+  border-left: 5px solid #18a3dd;
+  padding-left: 30px;
+}
+
+.header-description .banner h2 {
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #333740;
+  padding: 0;
+  margin: 0;
+}
+
+.header-description .banner span {
+  font-size: 24px;
+  letter-spacing: 0.6px;
+  color: #333740;
+}
+
+.header-description p {
+  font-size: 16px;
+  color: #666666;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  width: 428px;
+  margin-top: 70px;
+}
+
+.header-button {
+  margin-top: 48px;
+}
+
+.header-button button {
+  width: 180px;
+  height: 50px;
+  background-color: #18a3dd;
+  border-radius: 30px;
+  color: #f1f1f1;
+  font-size: 16px;
+  cursor: pointer;
+  border-style: none;
+}
+
+.header-button span {
+  margin-left: 25px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #333740;
+  font-weight: 700;
+}
+
+.header-button img {
+  margin-left: 5px;
+}
+
+.header-margin {
+  margin-top: 179px;
+  position: relative;
+}
+
+.header-margin .main-bgc {
+  width: 649px;
+  height: 535px;
+  padding: 0;
+}
+
+.header-margin .main-bgc img {
+  width: 100%;
+}
+
+.gradient-header {
+  position: absolute;
+  margin-top: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0;
+}
+
+.gradient-header img {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
