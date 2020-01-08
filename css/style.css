@@ -137,6 +137,11 @@ nav p {
   border-style: none;
 }
 
+.header-button button:active {
+  -webkit-transform: translate(3px, 5px);
+          transform: translate(3px, 5px);
+}
+
 .header-button span {
   margin-left: 25px;
   font-size: 16px;
@@ -156,7 +161,6 @@ nav p {
 
 .header-margin .main-bgc {
   width: 649px;
-  height: 535px;
   padding: 0;
 }
 
@@ -178,5 +182,128 @@ nav p {
 
 .gradient-header img {
   display: block;
+}
+
+.capsul-bgc {
+  background-image: linear-gradient(-40deg, #0f0816 0%, #21172b 90%, #21172b 100%);
+  height: 350px;
+}
+
+.capsul-img {
+  position: absolute;
+  margin-top: -123px;
+}
+
+.capsul-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 171px;
+}
+
+.capsul-block {
+  margin-top: 115px;
+}
+
+.capsul-block span {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  border-left: 5px solid #18a3dd;
+  padding-left: 22px;
+}
+
+.capsul-block h3 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #18a3dd;
+}
+
+.capsul-block p {
+  color: #a9a9a9;
+}
+
+.fetures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 67px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fetures-right h3 {
+  border-left: 4px solid #18a3dd;
+  border-radius: 2px 1px;
+  color: red;
+}
+
+.fetures-left h3 {
+  border-right: 4px solid #18a3dd;
+  border-radius: 2px 1px;
+}
+
+.fetures-header {
+  text-align: center;
+}
+
+.fetures-header span {
+  color: #83888f;
+  font-size: 16px;
+}
+
+.fetures-header p {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333740;
+  padding-left: 10px;
+}
+
+.fetures-header p span {
+  font-weight: 700;
+  border-right: 1px solid #18a3dd;
+  padding-right: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+  color: #333740;
+}
+
+.fetures-wrap-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 70px;
+}
+
+.fetures-block {
+  width: 255px;
+  margin-top: 130px;
+}
+
+.fetures-block h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333740;
+  text-transform: uppercase;
+  text-align: end;
+  padding-right: 20px;
+  padding-bottom: 19px;
+}
+
+.fetures-block p {
+  color: #666666;
 }
 /*# sourceMappingURL=style.css.map */
